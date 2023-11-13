@@ -5,7 +5,7 @@
 base = float(input("Inserisci la base del rettangolo: "))
 altezza = float(input("Inserisci l'altezza' del rettangolo: "))
 
-if base >= 0 and altezza >= 0:
+if base > 0 and altezza > 0:
     area = base * altezza
     print("Area calcolata = ", area)
 else:
